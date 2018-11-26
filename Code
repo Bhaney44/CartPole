@@ -1,0 +1,5 @@
+#Train the agent
+python -m spinup.run ppo --exp_name CartPole --env CartPole-v0 --epochs 25
+
+#Test the agent
+python -m spinup.run test_policy /path
